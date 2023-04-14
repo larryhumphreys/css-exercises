@@ -1,0 +1,32 @@
+/* style.css */
+
+/*
+* {
+    border: 2px solid red;
+}
+*/
+
+/* Type selector */
+div {
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Class selector */
+.alert-text {
+    color: cyan;
+    font-family: "DejaVu Sans", sans-serif;
+}
+
+/* ID selector */
+#title {
+    color: yellow;
+    text-align: left;
+}
+
+/* ID selector beats class selector which beats type selectors.
+/* The universal selector '*' has no specificity value.
+/* If multiple declarations have the same specificity, the last rule will apply.

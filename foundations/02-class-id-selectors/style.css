@@ -1,0 +1,24 @@
+/* style.css */
+
+p {
+    color: black;
+    background-color: rgb(215, 103, 103);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    /* font-size: 12px; */
+}
+
+#second {
+    color: #202095;
+    font-size: 36px;
+    font-family: "DejaVu Sans";
+}
+
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    color: hsl(0, 0%, 0%);
+    background-color: rgb(93, 189, 93);
+    font-weight: bold;
+}
